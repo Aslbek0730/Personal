@@ -61,7 +61,19 @@ const Navbar = () => {
             {isDarkMode ? <BsSunFill size={20} /> : <BsMoonFill size={20} />}
           </ThemeToggleButton>
           
-          <ResumeButton href="/resume.pdf" download="akhmedov_aslbek_resume.pdf">
+          <ResumeButton 
+            href="/src/assets/cv.pdf" 
+            download="Aslbek_Axmedov_CV.pdf"
+            onClick={(e) => {
+              e.preventDefault();
+              const link = document.createElement('a');
+              link.href = '/src/assets/cv.pdf';
+              link.download = 'Aslbek_Axmedov_CV.pdf';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
+          >
             Download CV
           </ResumeButton>
           

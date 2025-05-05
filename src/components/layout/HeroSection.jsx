@@ -30,7 +30,7 @@ const HeroSection = () => {
           variants={fadeInRight}
         >
           <HeroImage
-            src="/public/assets/aslbek.jpg"
+            src="/src/assets/aslbek.jpg"
             alt="Akhmedov Aslbek"
           />
         </motion.div>
