@@ -30,7 +30,7 @@ const HeroSection = () => {
           variants={fadeInRight}
         >
           <HeroImage
-            src="/src/assets/aslbek.jpg"
+            src="/src/components/aslbek.jpg"
             alt="Akhmedov Aslbek"
           />
         </motion.div>
@@ -44,7 +44,7 @@ const HeroSection = () => {
         <AboutSection>
           <AboutHeading>About Me</AboutHeading>
           <AboutText>
-            Young and ambitious Fullstack developer looking to grow in the fullstack space. 
+            Young and capable Fullstack developer looking to grow in the fullstack space. 
             I am a talented programmer. Becoming a senior is my goal!
           </AboutText>
         </AboutSection>
